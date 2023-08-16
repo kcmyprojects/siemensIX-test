@@ -10,9 +10,12 @@
     "dist"
   ],
   "devDependencies": {
-    "lit": "^2.7.5",
-    "vite": "^3.1.0",
     "@siemens/ix": "^1",
-    "@siemens/ix-icons": "^1"
+    "@siemens/ix-icons": "^1",
+    "lit": "^2.7.5",
+    "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "@siemens/ix-echarts": "^1.6.3"
   }
 }
