@@ -134,9 +134,9 @@ export class MyEchart extends LitElement {
     <div id="main" style="display: block; position: relative; width: 100%; height: 40rem"></div>
     `;
   }
-  createRenderRoot() {
-    return this;
-  }
+  // createRenderRoot() {
+  //   return this;
+  // }
 }
 
 window.customElements.define('my-echart', MyEchart);
